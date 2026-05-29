@@ -1,0 +1,4 @@
+PySide6>=6.11.1
+pyftpdlib>=2.2.0
+miniupnpc>=2.2.4; python_version < "3.14"
+pyOpenSSL>=24.0.0
