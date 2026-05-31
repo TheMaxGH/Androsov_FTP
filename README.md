@@ -10,6 +10,7 @@
 - [Production notes: порты, несколько серверов, firewall](docs/PRODUCTION.md)
 - [Архитектура проекта](docs/ARCHITECTURE.md)
 - [Сравнение с FileZilla, WinSCP, IIS FTP и vsftpd](docs/COMPARISON.md)
+- [Таблица тестов производительности](docs/PERFORMANCE_TESTS.md)
 - [Сетевой движок](src/infrastructure/network_engine.py)
 - [PySide6 GUI](src/gui/main_window.py)
 - [QSS тема](src/ui/dark_carbon.qss)
@@ -116,6 +117,10 @@ python build_script.py
 ```powershell
 python -m unittest discover -v
 ```
+
+## Производительность
+
+План нагрузочных и регрессионных проверок собран в [таблице тестов производительности](docs/PERFORMANCE_TESTS.md). В ней перечислены сценарии для GUI, headless-сервера, LAN-сканера, upload/download, FTPS, лимитов скорости и параллельных клиентов.
 
 ## Безопасность
 

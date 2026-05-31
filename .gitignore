@@ -10,3 +10,4 @@ build/
 .mypy_cache/
 .idea/
 .vscode/
+prompt.md
