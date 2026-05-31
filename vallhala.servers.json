@@ -10,47 +10,7 @@
       "keyfile": "",
       "allow_anonymous": false,
       "passive_ports": [
-        60000,
-        60100
-      ],
-      "users": [
-        {
-          "username": "user",
-          "password": "password",
-          "root_path": "",
-          "permissions": "elradfmwMT",
-          "enabled": true
-        },
-        {
-          "username": "апаа",
-          "password": "Tolikon90",
-          "root_path": "",
-          "permissions": "elradfmwMT",
-          "enabled": true
-        }
-      ],
-      "limits": {
-        "max_connections": 124,
-        "max_connections_per_ip": 1,
-        "upload_limit_kbps": 6,
-        "download_limit_kbps": 0
-      },
-      "ip_filter": {
-        "allow": [],
-        "deny": []
-      }
-    },
-    {
-      "name": "Server 2",
-      "host": "0.0.0.0",
-      "port": 2122,
-      "root_path": "D:\\ftp2",
-      "protocol": "ftp",
-      "certfile": "",
-      "keyfile": "",
-      "allow_anonymous": false,
-      "passive_ports": [
-        60000,
+        59996,
         60100
       ],
       "users": [

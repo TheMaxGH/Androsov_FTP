@@ -10,4 +10,5 @@ build/
 .mypy_cache/
 .idea/
 .vscode/
-prompt.md
+vallhala.servers.json
+!vallhala.servers.example.json

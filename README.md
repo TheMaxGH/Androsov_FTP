@@ -11,7 +11,7 @@
 - [Архитектура проекта](docs/ARCHITECTURE.md)
 - [Сравнение с FileZilla, WinSCP, IIS FTP и vsftpd](docs/COMPARISON.md)
 - [Таблица тестов производительности](docs/PERFORMANCE_TESTS.md)
-- [Графики производительности](docs/PERFORMANCE_GRAPHS.md)
+- [Сравнительные тесты с аналогами](docs/COMPETITIVE_TESTS.md)
 - [Сетевой движок](src/infrastructure/network_engine.py)
 - [PySide6 GUI](src/gui/main_window.py)
 - [QSS тема](src/ui/dark_carbon.qss)
@@ -123,7 +123,7 @@ python -m unittest discover -v
 
 План нагрузочных и регрессионных проверок собран в [таблице тестов производительности](docs/PERFORMANCE_TESTS.md). В ней перечислены сценарии для GUI, headless-сервера, LAN-сканера, upload/download, FTPS, лимитов скорости и параллельных клиентов.
 
-Визуальная сводка доступна в [графиках производительности](docs/PERFORMANCE_GRAPHS.md): покрытие сценариев, порядок прогона, целевые временные ориентиры и матрица нагрузки.
+Для дипломного сравнения с аналогами подготовлена отдельная [таблица сравнительных тестов](docs/COMPETITIVE_TESTS.md): VALLHALA FTP сопоставляется с FileZilla, WinSCP, IIS FTP и vsftpd по запуску, UX, LAN-discovery, CLI, FTPS, ограничениям и передаче файлов.
 
 ## Безопасность
 
