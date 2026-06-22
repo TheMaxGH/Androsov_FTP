@@ -29,6 +29,12 @@
 - CLI-клиент и legacy/headless сервер для SSH и автоматизации.
 - UPnP-проброс порта, если роутер и окружение это поддерживают.
 
+## Как скачать в терминале
+```powwershell
+git clone https://github.com/TheMaxGH/Androsov_FTP
+cd Androsov_ftp
+```
+
 ## Запуск GUI
 
 ```powershell
