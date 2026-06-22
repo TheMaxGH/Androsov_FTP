@@ -8,6 +8,8 @@ Legacy mode нужен для серверной машины без GUI: Window
 python main.py --legacy-server --host 0.0.0.0 --port 2121 --root "D:\Share" --user user --password password
 ```
 
+CLI-сервер показывает параметры в виде панели и подсвечивает события: запуск, вход пользователей, ошибки и остановку. Для компактного логирования используйте `--quiet`.
+
 Linux/macOS:
 
 ```bash
@@ -39,6 +41,7 @@ python main.py --legacy-server --config vallhala.servers.json --server Public
 | `--tls` | Включить FTPS | выключено |
 | `--certfile` | TLS-сертификат | пусто |
 | `--keyfile` | TLS-ключ | пусто |
+| `--quiet` | Компактные логи без визуальной панели | выключено |
 
 ## Несколько серверов
 
